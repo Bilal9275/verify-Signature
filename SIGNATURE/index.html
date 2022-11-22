@@ -1,0 +1,52 @@
+<html>
+<!-- <script src="./web3.min.js"></script> -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.37/dist/web3.min.js"></script>
+<!-- <script src="./node_modules/ethereumjs-tx"></script> -->
+<script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+<script src="./index.js"></script>
+
+<body>
+
+    <div class="row" style="margin-left: 250px;">
+        <div>
+            <h3 class="sub-header" style="color: black;">TokenWithdraw</h3>
+            <form class="form-inline" role="form">
+                <!-- Decimals: <input type="text" id="decimals"><br><br> -->
+                <a href="#" onclick="getmetamask()" class="btn btn-primary">
+                    getmetamask
+                </a>
+                <p id="demo"></p>
+            </form>
+
+            <form class="form-inline" role="form">
+                <!-- Decimals: <input type="text" id="decimals"><br><br> -->
+                <a href="#" onclick="getTokenBalance()" class="btn btn-primary">
+                    getBalance
+                </a>
+                <p id="demo"></p>
+            </form>
+
+            <form class="form-inline" role="form">
+                <!-- Decimals: <input type="text" id="decimals"><br><br> -->
+                <a href="#" onclick="transferTokenBalance()" class="btn btn-primary">
+                    transferTokenBalance
+                </a>
+                <p id="demo"></p>
+            </form>
+    
+            <form class="form-inline" role="form">
+                <!-- Decimals: <input type="text" id="decimals"><br><br> -->
+                <a href="#" onclick="withdraw()" class="btn btn-primary">
+                    withdraw
+                </a>
+                <p id="demo"></p>
+            </form>
+    
+        </div>
+    </div>
+
+</body>
+
+</html>
